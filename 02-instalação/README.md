@@ -12,60 +12,72 @@ Chamar o executável da instalação e prosseguir com click no botão `NEXT` que
 >
 ![This is a alt text.](/99-figuras/figura-01.jpg "Instalação do Node.js")
 
-## Confirmar o End-User License Agreement clicando em `NEXT`
+### Confirmar o End-User License Agreement 
+>
+Confirmar o End-User License Agreement clicando no check button `I accept ..` e clicando no botão `NEXT`.
+>
 >
 ![This is a alt text.](/99-figuras/figura-02.jpg "Instalação do Node.js")
 >
 
-## Definir um diretório para instalar ou digitar `NEXT` para a opção padrão
+### Definir um diretório para instalar o Node.js
+>
+Definir um diretório para instalar oNode.js ou clicar em `NEXT` para a opção padrão.
+>
 >
 ![This is a alt text.](/99-figuras/figura-03.jpg "Instalação do Node.js")
 >
 
-## Selecionar a configuração das principais features
+### Selecionar a configuração das principais features
 >
-As principais features com suas configurações padrão já veem selecionadas. Alterar essas configurações ou clicar em `NEXT` para prosseguir.  
+As principais features com suas configurações padrão já veem selecionadas. 
+>
+>
+Alterar essas configurações ou clicar em `NEXT` para prosseguir.  
 >
 >
 ![This is a alt text.](/99-figuras/figura-04.jpg "Instalação do Node.js")
 >
 
-## Selecionar Tools for Native Modules
+### Selecionar Tools for Native Modules
 >
 Existem módulos adicionados ao Node.js que necessitam de ferramentas para compilar código C/C++. 
 >
 >
-Na maioria dos casos não há necessidade de instalar tais recursos. Selecionar `NEXT` como opção padrão.
+Na maioria dos casos não há necessidade de instalar tais recursos.
+>
+>
+Selecionar `NEXT` como opção padrão.
 >
 >
 ![This is a alt text.](/99-figuras/figura-05.jpg "Instalação do Node.js")
 >
 
-## Ready to install Node.js
+### Ready to install Node.js
 >
 Confirmar `NEXT` para prosseguir a instalação do Node.js.
 >
 >
 ![This is a alt text.](/99-figuras/figura-06.jpg "Instalação do Node.js")
 >
-## Próximo passo
+### Próximo passo
 >
 ![This is a alt text.](/99-figuras/figura-07.jpg "Instalação do Node.js")
 >
 
-## Installing Node.js 
+### Installing Node.js 
 >
 A instalação inicia e a tela apresenta um status da evolução do processo de instalação até a sua conclusão.
 >
 ![This is a alt text.](/99-figuras/figura-08.jpg "Instalação do Node.js")
 >
 
-## Completed the Node.js Setup Wizard. 
+### Completed the Node.js Setup Wizard. 
 >
 ![This is a alt text.](/99-figuras/figura-09.jpg "Instalação do Node.js")
 >
 
-## Verificação da correta instalação do Node.JavaScript
+### Verificação da correta instalação do Node.JavaScript
 >
 A Verificação da correta instalação do Node.js é feita com a execução do seguinte comando: `node --version`.
 >
