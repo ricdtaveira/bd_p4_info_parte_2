@@ -60,21 +60,19 @@ Confirmar `NEXT` para prosseguir a instalação do Node.js.
 >
 ![This is a alt text.](/99-figuras/figura-06.jpg "Instalação do Node.js")
 >
-### Próximo passo
+8### Installing Node.js 
+>
+A instalação inicia e a tela apresenta um status da evolução do processo de instalação até a sua conclusão.
 >
 ![This is a alt text.](/99-figuras/figura-07.jpg "Instalação do Node.js")
 >
 
-### Installing Node.js 
+### Completed the Node.js Setup Wizard
 >
-A instalação inicia e a tela apresenta um status da evolução do processo de instalação até a sua conclusão.
+COmpletada a instalação o Node.js apresenta a tela abaixo.
+>
 >
 ![This is a alt text.](/99-figuras/figura-08.jpg "Instalação do Node.js")
->
-
-### Completed the Node.js Setup Wizard. 
->
-![This is a alt text.](/99-figuras/figura-09.jpg "Instalação do Node.js")
 >
 
 ### Verificação da correta instalação do Node.JavaScript
@@ -84,3 +82,7 @@ A Verificação da correta instalação do Node.js é feita com a execução do 
 >
 A correta instalação será evidenciada com a apresentação da versão do Node.js.
 >
+>
+![This is a alt text.](/99-figuras/figura-09.jpg "Instalação do Node.js")
+>
+
