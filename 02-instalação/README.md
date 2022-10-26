@@ -1,6 +1,6 @@
 ## Instalação do Node.js
 > 
-O [Node.js](https://nodejs.org/en/download/) disponibiliza versões instaláveis nos principais sistemas operacionais: Windows, macOS e Linux. 
+[Node.js](https://nodejs.org/en/download/) disponibiliza versões instaláveis nos principais sistemas operacionais: Windows, macOS e Linux. 
 >
 
 ### Instalação no Windows
