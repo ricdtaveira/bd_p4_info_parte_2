@@ -2,7 +2,7 @@
 
 var sqlite3 = require('sqlite3');
  
-var db = new sqlite3.Database('example.db');
+var db = new sqlite3.Database('BD_SCA.db');
  t
 db.serialize(function() {
 
