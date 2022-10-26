@@ -3,18 +3,18 @@
 var sqlite3 = require('sqlite3');
  
 var db = new sqlite3.Database('example.db');
- 
+ t
 db.serialize(function() {
 
 // Create a table
- db.run("CREATE TABLE IF NOT EXISTS Foo (id INTEGER PRIMARY KEY, name TEXT)");
+ db.run("CREATE TABLE IF NOT EXISTS TB_ALUNO (id INTEGER PRIMARY KEY, nome TEXT)");
  
 // Insert data into the table
- db.run("INSERT INTO Foo (name) VALUES ('bar')");
+ db.run("INSERT INTO TB_ALUNO (name) VALUES ('Maria Yohana')");
  
 // Query data from the table
- db.each("SELECT id, name FROM Foo", function(err, row) {
-    console.log(row.id + ": " + row.name);
+ db.each("SELECT id, name FROM TB_ALUNO", function(err, row) {
+    console.log(row.id + ": " + row.nome);
   });
 });
  
