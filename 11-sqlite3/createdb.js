@@ -10,10 +10,10 @@ db.serialize(function() {
  db.run("CREATE TABLE IF NOT EXISTS TB_ALUNO (id INTEGER PRIMARY KEY, nome TEXT)");
  
 // Insert data into the table
- db.run("INSERT INTO TB_ALUNO (name) VALUES ('Maria Yohana')");
+ db.run("INSERT INTO TB_ALUNO (nome) VALUES ('Maria Yohana')");
  
 // Query data from the table
- db.each("SELECT id, name FROM TB_ALUNO", function(err, row) {
+ db.each("SELECT id, nome FROM TB_ALUNO", function(err, row) {
     console.log(row.id + ": " + row.nome);
   });
 });
