@@ -1,6 +1,5 @@
 # Introdução
 >
-TESTE
 A Linguagem JavaScript é a principal linguagem usada para desenvolver aplicações na Web.
 >
 >
