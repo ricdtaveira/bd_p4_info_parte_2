@@ -3,7 +3,7 @@
 O uso do JavaScript permite executar operações em Banco de Dados **Sqlite3**. 
 >
 >
-Para tanto é necessário instalar um **pacote (package)** usando o software **NPM (Node Package Manager)**.
+Para tanto é necessário instalar um **pacote (package)** usando o software [**NPM (Node Package Manager)**](https://www.npmjs.com/package/sqlite3).
 >
 >
 O **NPM** possui um repositório na internet onde são mantidos centenas de pacotes das mais 
