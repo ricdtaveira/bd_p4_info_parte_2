@@ -1,10 +1,9 @@
 # Introdução
 >
-TESTE
 A Linguagem JavaScript é a principal linguagem usada para desenvolver aplicações na Web.
 >
 >
-Nas chamadas aplicações front-end um código script executa no ambiente de browser. Nessa forma há vários frameworks que dam suporte a aplicações que executam no browser. Como Angular, Vue.js, React e outros. Essas aplicações são chamadas de front-end.
+Nas chamadas aplicações front-end um código script executa no ambiente de browser. Nessa forma há vários frameworks que dão suporte a aplicações que executam no browser. Como Angular, Vue.js, React e outros. Essas aplicações são chamadas de front-end.
 >
 >
 A outra forma de usar JavaScript em aplicações web é usa-la em aplicações back-end. Aplicações back-end oferecem serviços para executar de forma remota atendendo requisições feitas por um front-end. 
