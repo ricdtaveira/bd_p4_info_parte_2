@@ -8,8 +8,8 @@ Esse comando devera ser executado no diretório chamado `migrations` que deve fi
 projeto.
 >
 >
-Dentro do diretório migrations, crie um novo arquivo create_tables que ficará com o nome 
-20230531000000_create_tables.js (o número inicial representa a data e a hora atual). 
+Dentro do diretório `migrations` crie um novo arquivo `create_tables` que ficará com o nome 
+similar a `20230531000000_create_tables.js` (o número inicial representa a data e a hora atual). 
 >
 Adicione o seguinte código ao arquivode migração criado:
 >
@@ -46,5 +46,5 @@ Usar o comando `knex migrate:latest` dentro do diretório `migrations`.
 >
 >
 Esse comando criará as tabelas `tb_alunos`, `tb_professores` e `tb_disciplinas` no banco de dados `SCA.db`
-seguindo o formato definido na ultima versão do arquivo cujo cabeçalho aponta o timestamp mais recente.
+seguindo o formato definido na ultima versão do arquivo de migração cujo cabeçalho aponta o timestamp mais recente.
 >
