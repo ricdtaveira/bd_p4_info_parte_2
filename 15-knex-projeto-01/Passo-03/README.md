@@ -1,6 +1,6 @@
 # Passo 3: Criação das migrações #
 >
-Use  o comando `knex migrate:make migration_name` cria um arquivo demigration com um cabeçalho composto por 
+Use  o comando `knex migrate:make migration_name`. Esse comando cria um arquivo de migration com um cabeçalho composto por 
 um timestamp. 
 >
 >
@@ -48,4 +48,3 @@ Usar o comando `knex migrate:latest` dentro do diretório `migrations`.
 Esse comando criará as tabelas `tb_alunos`, `tb_professores` e `tb_disciplinas` no banco de dados `SCA.db`
 seguindo o formato definido na ultima versão do arquivo cujo cabeçalho aponta o timestamp mais recente.
 >
- 
