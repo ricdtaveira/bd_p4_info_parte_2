@@ -1,0 +1,16 @@
+{
+  "name": "avaliacao-10",
+  "version": "1.0.0",
+  "description": ">\r Objetivos: \r >\r > \r 1. Criar um projeto node.js;\r 1. Inicializar o projeto com o npm;\r 1. Criar o arquivo de migração;\r 1. Criar o arquivo de Seeds;\r 1. Criar os CRUDS de cada Tabela.\r >",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6"
+  }
+}

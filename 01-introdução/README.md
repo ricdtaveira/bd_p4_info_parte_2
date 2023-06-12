@@ -19,7 +19,7 @@ Daremos enfase ao código JavaScript que executa operações em Banco de Dados.
 >
 
 >
-Lá vai !
+Segue !
 >
 
 
