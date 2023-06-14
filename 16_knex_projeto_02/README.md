@@ -22,7 +22,7 @@ npm install knex sqlite3
 ```
 >
 5. Configuração do banco de dados 
-Crie um novo arquivo chamado **knexfile.js no diretório raiz do projeto e adicione o seguinte código:
+Crie um novo arquivo chamado **knexfile.js** no diretório raiz do projeto e adicione o seguinte código:
 ```
 module.exports = {
   development: {
