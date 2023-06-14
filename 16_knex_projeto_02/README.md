@@ -102,8 +102,11 @@ exports.seed = function(knex) {
 };
 
 ```
+9. Execute o comando **knex seed:run** para executar o script do seed a partir do diretório 
+raiz. Verifique se as tabelas foram populadas usando o **DBrowser**.
 
-9. Crie uma pasta chamada **models** dentro do diretório do projeto. Em seguida, crie os arquivos 
+
+10. Crie uma pasta chamada **models** dentro do diretório do projeto. Em seguida, crie os arquivos 
 **Aluno.js**, **Professor.js** e **Disciplina.js** dentro da pasta **models**. Adicione o seguinte código aos 
 arquivos:
 
@@ -287,7 +290,7 @@ class Disciplina {
 module.exports = Disciplina;
 
 ```
-10. No arquivo **index.js**, adicione o seguinte código:
+11. No arquivo **index.js**, adicione o seguinte código:
 
 ```
 const Aluno = require('./models/Aluno');
