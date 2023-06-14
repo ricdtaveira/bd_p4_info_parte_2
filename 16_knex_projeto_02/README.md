@@ -69,8 +69,11 @@ exports.down = function(knex) {
 };
 
 ```
+7. Executar o comando **knex migrate:latest** a partir do diretório raiz. Observar que o banco de dados
+foi criado na raiz do projeto como definido no arquivo **knexfile.js*.
 
-7. Crie uma pasta chamada **seeds** dentro do diretório do projeto e crie um arquivo chamado 
+
+8. Crie uma pasta chamada **seeds** dentro do diretório do projeto e crie um arquivo chamado 
 **01_seed_data.js**. Adicione o seguinte código ao arquivo:
 
 ```
@@ -100,7 +103,7 @@ exports.seed = function(knex) {
 
 ```
 
-8. Crie uma pasta chamada **models** dentro do diretório do projeto. Em seguida, crie os arquivos 
+9. Crie uma pasta chamada **models** dentro do diretório do projeto. Em seguida, crie os arquivos 
 **Aluno.js**, **Professor.js** e **Disciplina.js** dentro da pasta **models**. Adicione o seguinte código aos 
 arquivos:
 
@@ -284,7 +287,7 @@ class Disciplina {
 module.exports = Disciplina;
 
 ```
-9. No arquivo **index.js**, adicione o seguinte código:
+10. No arquivo **index.js**, adicione o seguinte código:
 
 ```
 const Aluno = require('./models/Aluno');
