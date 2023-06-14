@@ -149,7 +149,7 @@ module.exports = Aluno;
 
 ```
 
-** Professor.js: **
+**Professor.js:**
 
 ```
 const knex = require('knex');
@@ -209,7 +209,7 @@ class Professor {
 module.exports = Professor;
 
 ```
-** Disciplina.js **
+**Disciplina.js**
 ```
 const knex = require('knex');
 const database = knex({
