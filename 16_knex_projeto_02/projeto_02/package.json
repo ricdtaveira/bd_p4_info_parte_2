@@ -1,0 +1,16 @@
+{
+  "name": "projeto_02",
+  "version": "1.0.0",
+  "description": "Projeto 02 com Crud usando Knex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6"
+  }
+}
