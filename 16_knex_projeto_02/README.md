@@ -21,8 +21,8 @@ npm install knex sqlite3
 
 ```
 >
-5. Crie uma pasta chamada migrations dentro do diretório do projeto e crie um arquivo 
-chamado 20230614120000_create_tables.js. Adicione o seguinte código ao arquivo:
+5. Crie uma pasta chamada **migrations** dentro do diretório do projeto e crie um arquivo 
+chamado **20230614120000_create_tables.js**. Adicione o seguinte código ao arquivo:
 
 ```
 exports.up = function(knex) {
@@ -54,8 +54,8 @@ exports.down = function(knex) {
 
 ```
 
-6. Crie uma pasta chamada seeds dentro do diretório do projeto e crie um arquivo chamado 
-01_seed_data.js. Adicione o seguinte código ao arquivo:
+6. Crie uma pasta chamada **seeds** dentro do diretório do projeto e crie um arquivo chamado 
+**01_seed_data.js**. Adicione o seguinte código ao arquivo:
 
 ```
 exports.seed = function(knex) {
@@ -84,8 +84,8 @@ exports.seed = function(knex) {
 
 ```
 
-7. Crie uma pasta chamada models dentro do diretório do projeto. Em seguida, crie os arquivos 
-Aluno.js, Professor.js e Disciplina.js dentro da pasta models. Adicione o seguinte código aos 
+7. Crie uma pasta chamada **models** dentro do diretório do projeto. Em seguida, crie os arquivos 
+**Aluno.js**, **Professor.js** e **Disciplina.js** dentro da pasta **models**. Adicione o seguinte código aos 
 arquivos:
 
 **Aluno.js:**
@@ -268,7 +268,7 @@ class Disciplina {
 module.exports = Disciplina;
 
 ```
-8. No arquivo `index.js`, adicione o seguinte código:
+8. No arquivo **index.js**, adicione o seguinte código:
 
 ```
 const Aluno = require('./models/Aluno');
@@ -287,6 +287,6 @@ Aluno.criarAluno(exemploAluno);
 >
 >
 Certifique-se de adaptar a estrutura e a lógica da aplicação às suas necessidades específicas. Esta 
-é apenas uma implementação básica para ilustrar o uso do Knex e do banco de dados Sqlite3 com 
+é uma implementação básica para ilustrar o uso do Knex e do banco de dados Sqlite3 com 
 arquivos separados para migrations, seeds e CRUD.
 >
