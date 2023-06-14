@@ -287,6 +287,6 @@ Aluno.criarAluno(exemploAluno);
 >
 >
 Certifique-se de adaptar a estrutura e a lógica da aplicação às suas necessidades específicas. Esta 
-é uma implementação básica para ilustrar o uso do Knex e do banco de dados Sqlite3 com 
-arquivos separados para migrations, seeds e CRUD.
+é uma implementação básica que usa o Knex e o banco de dados Sqlite3 com arquivos separados para 
+migrations, seeds e CRUD.
 >
