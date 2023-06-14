@@ -70,7 +70,7 @@ exports.down = function(knex) {
 
 ```
 7. Executar o comando **knex migrate:latest** a partir do diretório raiz. Observar que o banco de dados
-foi criado na raiz do projeto como definido no arquivo **knexfile.js*.
+foi criado na raiz do projeto como definido no arquivo **knexfile.js**.
 
 
 8. Crie uma pasta chamada **seeds** dentro do diretório do projeto e crie um arquivo chamado 
