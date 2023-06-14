@@ -21,7 +21,22 @@ npm install knex sqlite3
 
 ```
 >
-5. Crie uma pasta chamada **migrations** dentro do diretório do projeto e crie um arquivo 
+5. Configuração do banco de dados 
+Crie um novo arquivo chamado **knexfile.js no diretório raiz do projeto e adicione o seguinte código:
+```
+module.exports = {
+  development: {
+    client: 'sqlite3',
+    connection: {
+      filename: './SCA.db'
+    },
+    useNullAsDefault: true
+  }
+};
+```
+
+>
+6. Crie uma pasta chamada **migrations** dentro do diretório do projeto e crie um arquivo 
 chamado **20230614120000_create_tables.js**. Adicione o seguinte código ao arquivo:
 
 ```
@@ -54,7 +69,7 @@ exports.down = function(knex) {
 
 ```
 
-6. Crie uma pasta chamada **seeds** dentro do diretório do projeto e crie um arquivo chamado 
+7. Crie uma pasta chamada **seeds** dentro do diretório do projeto e crie um arquivo chamado 
 **01_seed_data.js**. Adicione o seguinte código ao arquivo:
 
 ```
@@ -84,7 +99,7 @@ exports.seed = function(knex) {
 
 ```
 
-7. Crie uma pasta chamada **models** dentro do diretório do projeto. Em seguida, crie os arquivos 
+8. Crie uma pasta chamada **models** dentro do diretório do projeto. Em seguida, crie os arquivos 
 **Aluno.js**, **Professor.js** e **Disciplina.js** dentro da pasta **models**. Adicione o seguinte código aos 
 arquivos:
 
@@ -268,7 +283,7 @@ class Disciplina {
 module.exports = Disciplina;
 
 ```
-8. No arquivo **index.js**, adicione o seguinte código:
+9. No arquivo **index.js**, adicione o seguinte código:
 
 ```
 const Aluno = require('./models/Aluno');
