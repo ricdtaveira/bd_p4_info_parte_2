@@ -36,8 +36,10 @@ module.exports = {
 ```
 
 >
-6. Crie uma pasta chamada **migrations** dentro do diretório do projeto e crie um arquivo 
-chamado **20230614120000_create_tables.js**. Adicione o seguinte código ao arquivo:
+6. Use o comando **npx knex migrate:make create_tables** para criar uma pasta chamada **migrations** e dentro 
+dessa pasta será criado o um arquivo chamado **20230614120000_create_tables.js**. O time stamp no header do
+vai depender da data/hora/minuto/segundo e milisegundo do momento em que foi executado. 
+Adicione o seguinte código ao arquivo:
 
 ```
 exports.up = function(knex) {
