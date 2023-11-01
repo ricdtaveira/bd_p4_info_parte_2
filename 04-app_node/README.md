@@ -44,7 +44,7 @@ A seguir temos a chamada da API Get usando o Postman como cliente web.
 >
 
 #### API POST ####
-A seguir temos a chamada da API Post manusando o Postman como cliente web.
+A seguir temos a chamada da API Post usando o Postman como cliente web.
 >
 >
 Observar as configurações `Body` e `x-www-form-urlencoded`. 
