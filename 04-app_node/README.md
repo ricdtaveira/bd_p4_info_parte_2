@@ -16,8 +16,10 @@ Chamar a execução do servidor com o comando abaixo:
 ```
 $ node app.js
 ```
+
+## POSTMAN ##
 >
-Usar o Postman para simular as chamadas das APIs na aplicação 
+O Postman simula as chamadas das APIs REST. Simula um cliente da aplicação 
 servidora app.js.
 >
 >
@@ -31,9 +33,19 @@ Assistir os vídeos:
 Observar as configurações para executar o SEND das mensagens HHTP que 
 deverão estar compatíveis com a URL programada na aplicação `app.js`. 
 >
+### Chamadas das API REST ####
+
+#### API GET ####
 >
 A seguir temos a chamada da API Get usando o Postman como cliente web.
 >
 >
 ![Chamada da API GET.](../99-figuras/Postman_GET.png "Chamada da API GET.")
+>
+
+#### API POST ####
+A seguir temos a chamada da API Get usando o Postman como cliente web.
+>
+>
+![Chamada da API POST.](../99-figuras/Postman_POST.png "Chamada da API POST.")
 >
