@@ -35,5 +35,5 @@ deverão estar compatíveis com a URL programada na aplicação `app.js`.
 A seguir temos a chamada da API Get usando o Postman como cliente web.
 >
 >
-![Chamada da API GET.](./99-figuras/POSTMAN-GET.png "Chamada da API GET.")
+![Chamada da API GET.](./99-figuras/POSTMAN_GET.png "Chamada da API GET.")
 >
